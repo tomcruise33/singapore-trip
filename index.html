@@ -35,6 +35,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .loc-pill{display:inline-flex;align-items:center;gap:4px;background:#0f172a;border:1px solid #334155;border-radius:6px;padding:3px 8px;font-size:11px;color:var(--accent2);text-decoration:none;margin:2px}
 .loc-pill:active{opacity:.6}
 </style>
+<link rel="manifest" href="./manifest.json">
+<script>if("serviceWorker"in navigator){navigator.serviceWorker.register("./sw.js")}</script>
 </head>
 <body>
 <div id="root"></div>
